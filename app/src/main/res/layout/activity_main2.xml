@@ -36,7 +36,7 @@
         <!--android:layout_height="50dp"-->
         <!--android:background="#23349800"/>-->
 
-    <com.tm.example.textcolordemo.TextColorView
+    <com.tm.example.textcolordemo.view.TextColorView
         android:id="@+id/textcolor"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

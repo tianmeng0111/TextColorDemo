@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.tm.example.textcolordemo.SwitchActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center">
+
+        <com.tm.example.textcolordemo.view.TextSwitchButton
+            android:id="@+id/textSwitchBtn"
+            android:layout_centerInParent="true"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            app:TextLeft="关注"
+            app:TextRight="更新"
+            app:TextSize="16sp"
+            app:ThumbPadding="2dp"
+            app:TextColorFloor="@color/colorPrimary"/>
+
+    </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

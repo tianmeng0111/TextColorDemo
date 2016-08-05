@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TextSwitchButton">
+        <attr name="ThumbPadding" format="dimension"/>
+
+        <attr name="BackColor" format="color"/>
+
+        <attr name="TextLeft" format="string"/>
+        <attr name="TextRight" format="string"/>
+        <attr name="TextSize" format="dimension"/>
+        <attr name="TextColorFloor" format="color"/>
+        <attr name="TextColorCover" format="color"/>
+    </declare-styleable>
+</resources>

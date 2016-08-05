@@ -20,4 +20,8 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, Main2Activity.class);
         startActivity(intent);
     }
+    public void goSwithActivity(View view) {
+        Intent intent = new Intent(MainActivity.this, SwitchActivity.class);
+        startActivity(intent);
+    }
 }
