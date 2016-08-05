@@ -4,3 +4,9 @@
 
 
 ![image](https://github.com/tianmeng0111/TextColorDemo/blob/master/GIF.gif)
+
+实现SwitchButton效果，滑动过程中文字颜色变化。
+
+![image](https://github.com/tianmeng0111/TextColorDemo/blob/master/GIF1.gif)
+
+![image](https://github.com/tianmeng0111/TextColorDemo/blob/master/GIF2.gif)
